@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.board {
+  border: 0.2rem solid #212223;
+  background: #212223;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0.2 rem
+}
+
+.squares {
+  background: #fff;
+  border: none;
+  font-size: 5rem;
+  outline: none;
+}
+
+.X {
+  color: red
+}
+
+.O {
+  color: blue;
+}
+
+.game {
+  display: inline-block
+
+}
