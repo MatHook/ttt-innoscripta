@@ -1,13 +1,17 @@
-import { useEffect, useState } from "react";
-import { winnerCalc } from "../services/winnerCalc";
-import Board from "./Board";
+import { useEffect, useState } from 'react';
+import { winnerCalc } from '../services/winnerCalc';
+import Board from './Board';
+
+function pcNum() {
+  return Math.floor(Math.random() * 9);
+}
 
 const Game = () => {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [step, setStep] = useState(0);
   const [xIsNext, setXIsNext] = useState(true);
   const winner = winnerCalc(history[step]);
-  const xO = xIsNext ? "X" : "O";
+  const xO = xIsNext ? 'X' : 'O';
   const [pClick, setPClick] = useState(true);
 
   const handleClick = (e) => {
@@ -26,14 +30,22 @@ const Game = () => {
   };
 
   const compClick = () => {
-    const randomSquare = Math.floor(Math.random() * 8) + 1;
-    console.log("comp click ", randomSquare);
+    const ranNum = pcNum();
+    const currentBoard = history
+      .slice(0, step + 1)
+      [step].map((i, ind) => (i === null ? null : ind));
+
+    // console.log({ ranNum, currentBoard, comp: new Date() });
+
+    if (currentBoard.includes(ranNum) && !winner) {
+      return compClick();
+    }
 
     const compHistoryPoint = history.slice(0, step + 1);
     const compCurrent = compHistoryPoint[step];
     const compSquares = [...compCurrent];
 
-    compSquares[randomSquare] = xO;
+    compSquares[ranNum] = xO;
 
     setHistory([...compHistoryPoint, compSquares]);
     setStep(compHistoryPoint.length);
@@ -43,7 +55,7 @@ const Game = () => {
 
   const renderMoves = () =>
     history.map((pStep, move) => {
-      const destination = move ? `Go to move №${move}` : "Go To Start";
+      const destination = move ? `Go to move №${move}` : 'Go To Start';
       return (
         <p key={move}>
           <button onClick={() => jumpTo(move)}>{destination}</button>
@@ -64,7 +76,7 @@ const Game = () => {
   return (
     <div className="game">
       <Board squares={history[step]} onClick={handleClick} />
-      <h2>{winner ? <span>Winner {winner}</span> : "Next player " + xO}</h2>
+      <h2>{winner ? <span>Winner {winner}</span> : 'Next player ' + xO}</h2>
       <div>
         <h2>History</h2>
         {renderMoves()}

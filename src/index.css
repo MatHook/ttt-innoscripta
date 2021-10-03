@@ -30,11 +30,13 @@ code {
 }
 
 .X {
-  color: red
+  color: red;
+  border: 0.2rem solid #212223;
 }
 
 .O {
   color: blue;
+  border: 0.2rem solid #212223;
 }
 
 .game {

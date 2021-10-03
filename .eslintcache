@@ -1,1 +1,56 @@
-[{"/Users/matvey/Desktop/inntestttt/src/App.js":"1","/Users/matvey/Desktop/inntestttt/src/index.js":"2","/Users/matvey/Desktop/inntestttt/src/components/Game.js":"3","/Users/matvey/Desktop/inntestttt/src/services/winnerCalc.js":"4","/Users/matvey/Desktop/inntestttt/src/components/Board.js":"5","/Users/matvey/Desktop/inntestttt/src/components/Square.js":"6"},{"size":198,"mtime":1608469252895,"results":"7","hashOfConfig":"8"},{"size":219,"mtime":1608468785501,"results":"9","hashOfConfig":"8"},{"size":1994,"mtime":1608473254141,"results":"10","hashOfConfig":"8"},{"size":388,"mtime":1608467817044,"results":"11","hashOfConfig":"8"},{"size":303,"mtime":1608468124057,"results":"12","hashOfConfig":"8"},{"size":233,"mtime":1608466919045,"results":"13","hashOfConfig":"8"},{"filePath":"14","messages":"15","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"gd907z",{"filePath":"16","messages":"17","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"18","messages":"19","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"20","messages":"21","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"22","messages":"23","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},{"filePath":"24","messages":"25","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/Users/matvey/Desktop/inntestttt/src/App.js",[],"/Users/matvey/Desktop/inntestttt/src/index.js",[],"/Users/matvey/Desktop/inntestttt/src/components/Game.js",[],"/Users/matvey/Desktop/inntestttt/src/services/winnerCalc.js",[],"/Users/matvey/Desktop/inntestttt/src/components/Board.js",[],"/Users/matvey/Desktop/inntestttt/src/components/Square.js",[]]
+[
+  {
+    "/Users/matvey/Desktop/ttt-innoscripta/src/App.js": "1",
+    "/Users/matvey/Desktop/ttt-innoscripta/src/components/Game.js": "2",
+    "/Users/matvey/Desktop/ttt-innoscripta/src/services/winnerCalc.js": "3"
+  },
+  {
+    "size": 198,
+    "mtime": 1633261112974,
+    "results": "4",
+    "hashOfConfig": "5"
+  },
+  {
+    "size": 2235,
+    "mtime": 1633262853487,
+    "results": "6",
+    "hashOfConfig": "5"
+  },
+  {
+    "size": 388,
+    "mtime": 1633261112976,
+    "results": "7",
+    "hashOfConfig": "5"
+  },
+  {
+    "filePath": "8",
+    "messages": "9",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "1x4n9n5",
+  {
+    "filePath": "10",
+    "messages": "11",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  {
+    "filePath": "12",
+    "messages": "13",
+    "errorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0
+  },
+  "/Users/matvey/Desktop/ttt-innoscripta/src/App.js",
+  [],
+  "/Users/matvey/Desktop/ttt-innoscripta/src/components/Game.js",
+  [],
+  "/Users/matvey/Desktop/ttt-innoscripta/src/services/winnerCalc.js",
+  []
+]
